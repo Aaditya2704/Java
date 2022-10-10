@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.util.HashMap;
-import java.util.Arrays;
 
 public class IntersectionOfTwoArray {
     public static void main(String[] args) {
