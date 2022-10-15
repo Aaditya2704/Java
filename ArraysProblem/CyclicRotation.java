@@ -34,3 +34,12 @@ public class CyclicRotation {
 
     }
 }
+/*
+ * main thing in this problem is the partition
+ * carefully look at the partition formula
+ * carefully send the low and high point in the function
+ * ***********************MAIN LOGIC*******************
+ * FIRST REVERSE THE CYCLIC ROTATION
+ * SECOND REVERSE THE ARRAY FROM THE START POSITION TO THE PARTITION
+ * LAST REVERSE THE WHOLE ARRAY FROM START TO THE LAST
+ */
