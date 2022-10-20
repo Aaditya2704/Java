@@ -4,6 +4,9 @@ public class JumpToComplete {
     static int countJumps(int[] arr, int size) {
         int jump = 0, currentPosition = 0, actualPosition = 0;
         for (int i = 0; i < size; i++) {
+            if (arr[i] == 0 && i == currentPosition) {
+                return -1;
+            }
             if ((i + arr[i]) > actualPosition) {
                 actualPosition = i + arr[i];
             }
@@ -11,9 +14,7 @@ public class JumpToComplete {
                 jump++;
                 currentPosition = actualPosition;
             }
-            if (arr[i] == 0 && i == currentPosition) {
-                return -1;
-            }
+            
         }
         return jump;
     }
