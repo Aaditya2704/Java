@@ -6,7 +6,7 @@ public class PositiveNegativeSorting {
         int length = a.length;
         int[] result = new int[length];
         int pos = 0, neg = 1;
-        for (int i = 0; i < length - 1; i++) {
+        for (int i = 0; i <= length - 1; i++) {
             if (a[i] > 0) {
                 result[pos] = a[i];
                 pos += 2;
