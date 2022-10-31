@@ -9,8 +9,8 @@ public class Factorial {
     }
 
     public static void main(String[] args) {
-        int n = 6;
-        int fact = SolveFact(n);
+        int a = 8;
+        int fact = SolveFact(a);
         System.out.println(fact);
     }
 }
