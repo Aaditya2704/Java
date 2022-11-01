@@ -1,20 +1,18 @@
 
 public class CheckPalidrome {
 
-    public static boolean reverse(String s, int start, int end) {
-        String news = s;
-        return false;
-
+    public static boolean reverse(String s, int i, int N) {
+        if (i >= N / 2) {
+            return true;
+        }
+        if (s.charAt(i) != s.charAt(N - i - 1))
+            return false;
+        return true;
     }
 
     public static void main(String[] args) {
-        String s = "Aaditya";
+        String s = "aadidtya";
         int length = s.length();
-        boolean newS = reverse(s, 0, length - 1);
-        if (newS == true) {
-            System.out.println("Is a palindrome");
-        } else {
-            System.out.println("Is not a palindrome");
-        }
+        System.out.println(reverse(s, 0, length));
     }
 }
