@@ -1,12 +1,15 @@
 public class SumOfNNumbers {
-    static void Solve(int N) {
-        int sum = N * (N + 1) / 2;
-        System.out.println(sum);
+    static void Solve(int N, int sum) {
+        if (N < 0) {
+            System.out.print(sum);
+            return;
+        }
+        Solve(N - 1, sum + N);
     }
 
     public static void main(String[] args) {
         int n = 6;
-        Solve(n);
+        Solve(n, 0);
 
     }
 }
