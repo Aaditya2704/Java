@@ -1,15 +1,15 @@
 public class ReverseArray {
-    static void swap(int i, int j) {
-        int temp = i;
-        i = j;
-        j = temp;
+    static void swap(int[] a, int i, int j) {
+        int temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
     }
 
     static void reverse(int[] a, int i, int N) {
         if (i >= N / 2) {
             return;
         }
-        swap(a[i], a[N - i - 1]);
+        swap(a, a[i], a[N - i - 1]);
         reverse(a, i + 1, N);
     }
 
