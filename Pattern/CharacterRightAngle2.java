@@ -7,7 +7,7 @@ public class CharacterRightAngle2 {
                 ch = (char) (64 + j);
                 System.out.print(ch);
             }
-            ch++;
+
             System.out.println();
         }
     }
