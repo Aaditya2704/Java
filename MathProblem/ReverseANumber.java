@@ -1,6 +1,6 @@
 public class ReverseANumber {
     public static void main(String[] args) {
-        int a = 123456;
+        int a = 654321;
         int reverse = 0;
         int digit = 0;
         while (a != 0) {
