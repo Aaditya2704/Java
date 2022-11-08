@@ -1,3 +1,4 @@
+// This program is only for sorted array
 public class RemoveDuplicates {
     static int removeDuplicates(int[] arr) {
         int i = 0;
