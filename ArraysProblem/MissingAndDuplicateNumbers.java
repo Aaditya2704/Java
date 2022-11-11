@@ -1,4 +1,4 @@
-public class MissingNumbers {
+public class MissingAndDuplicateNumbers {
 
     static int x, y;
 
