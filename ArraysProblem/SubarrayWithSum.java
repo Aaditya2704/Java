@@ -1,6 +1,6 @@
 public class SubarrayWithSum {
     public static void main(String[] args) {
-        int[] a = { 7, 1, 6, 0 };
+        int[] a = { 5, 3, 2, 1 };
         int k = 10;
         int length = findMaxLen(a, k);
         System.out.println(length);
