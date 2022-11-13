@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class PositiveNegativeSorting {
     public static void main(String[] args) {
-        int[] a = { 12, -3, -4, 2, -5, 22 };
+        int[] a = { 12 - 3, -4, 2, -5, 22, -12, 33 };
         int length = a.length;
         int[] result = new int[length];
         int pos = 0, neg = 1;
