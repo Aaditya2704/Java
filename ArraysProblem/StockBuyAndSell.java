@@ -5,7 +5,7 @@ public class StockBuyAndSell {
         System.out.println("Max profit is " + maxPro);
     }
 
-    static int maxProfit(int[] arr) {
+    public static int maxProfit(int[] arr) {
         int maxPro = 0;
         int minPrice = Integer.MAX_VALUE;
         for (int i = 0; i < arr.length; i++) {
