@@ -9,7 +9,7 @@ public class CheckSorted {
     }
 
     public static void main(String args[]) {
-        int arr[] = { 1, 2, 3, 4, 5 }, n = 5;
+        int arr[] = { 1, 2, 3, 6, 5 }, n = 5;
 
         System.out.println(isSorted(arr, n));
     }
