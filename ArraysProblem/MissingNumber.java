@@ -17,7 +17,7 @@ public class MissingNumber {
     }
 
     public static void main(String args[]) {
-        int arr[] = { 1, 2, 3, 5 };
+        int arr[] = { 1, 2, 3, 5,4,7 };
         int N = arr.length;
 
         int miss = getMissingNo(arr, N);
