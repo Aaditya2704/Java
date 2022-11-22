@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class NextPermutaiton {
     public static void main(String[] args) {
-        int[] arr = { 1, 4, 7, 5, 2 };
+        int[] arr = { 1, 4, 7, 5, 2, 6 };
         Solution(arr);
         System.out.println(Arrays.toString(arr));
     }
