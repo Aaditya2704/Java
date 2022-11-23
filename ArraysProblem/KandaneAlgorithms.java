@@ -24,7 +24,7 @@ class KandaneAlgorithms {
     }
 
     public static void main(String args[]) {
-        int arr[] = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+        int arr[] = { -2, 4, 3, 1, 6, -5, 3 };
         ArrayList<Integer> subarray = new ArrayList<>();
         int lon = maxSubArray(arr, subarray);
         System.out.println("The longest subarray with maximum sum is " + lon);
