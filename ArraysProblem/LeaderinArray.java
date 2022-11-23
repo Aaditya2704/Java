@@ -1,6 +1,6 @@
 public class LeaderinArray {
     public static void main(String[] args) {
-        int[] arr = { 4, 7, 1, 0 };
+        int[] arr = { 4, 7, 1, 0, 6 };
         System.out.println("The leaders of the second array are: ");
         printLeaders(arr, arr.length);
     }
