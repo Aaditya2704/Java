@@ -19,7 +19,7 @@ public class SecondLargest {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1, 2, 4, 7, 7, 5 };
+        int[] arr = { 45, 22, 6, 1, 9, 4 };
         int n = arr.length;
         int seclargest = secondLargest(arr, n);
         System.out.println("Second largest is " + seclargest);
