@@ -1,6 +1,6 @@
 public class StockBuyAndSell {
     public static void main(String[] args) {
-        int[] arr = { 1, 4, 2, 9, 6 };
+        int[] arr = { 1, 4, 3, 1, 7 };
         int maxPro = maxProfit(arr);
         System.out.println("Max profit is " + maxPro);
     }
